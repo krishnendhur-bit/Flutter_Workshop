@@ -21,6 +21,21 @@ class Login extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
         body: Linkedin(),
+        bottomNavigationBar: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: "Home"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.video_call_outlined),
+              label: "Video"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.notifications),
+              label: "Notification"),
+
+
+          ],
+        ),
 
       ),
     );
